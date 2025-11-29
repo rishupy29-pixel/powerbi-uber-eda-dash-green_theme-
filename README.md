@@ -2,7 +2,8 @@
 
 ### 📊 Interactive Power BI Dashboard for Ride-Sharing Insights
 
-![Uber Dashboard Banner](Home-page.jpg)
+![Uber Dashboard Banner](Home-page<img width="1297" height="721" alt="Home page" src="https://github.com/user-attachments/assets/fd8214b6-3324-4c8e-9206-f61380690757" />
+.jpg)
 
 ## 📖 Project Overview
 This project is a comprehensive data visualization dashboard built using **Microsoft Power BI**. It analyzes Uber's ride-sharing data to uncover key insights into booking trends, revenue generation, vehicle utilization, and customer demographics.
