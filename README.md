@@ -34,15 +34,15 @@ The goal of this dashboard is to help stakeholders make data-driven decisions by
 
 | **Bookings View** | **Revenue View** |
 |:---:|:---:|
-| ![Bookings Page<img width="1302" height="722" alt="Booking page" src="https://github.com/user-attachments/assets/6c8b1c26-b677-4962-997d-33165087e8a1" />
-]() | ![Revenue Page] <img width="1297" height="722" alt="revenue page" src="https://github.com/user-attachments/assets/2ece5257-5325-42be-9ebb-a9c7180c8d63" />
+| <img width="1302" height="722" alt="Booking page" src="https://github.com/user-attachments/assets/6c8b1c26-b677-4962-997d-33165087e8a1" />
+] <img width="1297" height="722" alt="revenue page" src="https://github.com/user-attachments/assets/2ece5257-5325-42be-9ebb-a9c7180c8d63" />
 |
 | *Tracks volume, ride status, and vehicle types* | *Analyzes payment methods and financial performance* |
 
 | **Customer View** | **Vehicle & Riders** |
 |:---:|:---:|
-| ![Rider Page] <img width="1297" height="722" alt="Rider page" src="https://github.com/user-attachments/assets/27b5d3b2-3be8-44a2-90ec-758e709618d7" />
-| ![Vehicle Page] <img width="1298" height="722" alt="vehicle page" src="https://github.com/user-attachments/assets/0ed67a7c-8d74-49c1-b3ee-6c4a46967809" />
+| <img width="1297" height="722" alt="Rider page" src="https://github.com/user-attachments/assets/27b5d3b2-3be8-44a2-90ec-758e709618d7" />
+| <img width="1298" height="722" alt="vehicle page" src="https://github.com/user-attachments/assets/0ed67a7c-8d74-49c1-b3ee-6c4a46967809" />
 |
 | *Customer segments and cancellation reasons* | *Vehicle performance metrics and utilization* |
 
