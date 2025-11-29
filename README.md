@@ -1,41 +1,60 @@
+# 🚖 Uber Analytics Dashboard
 
+### 📊 Interactive Power BI Dashboard for Ride-Sharing Insights
 
-# 🚕 Ride-Sharing Analytics Dashboard
+![Uber Dashboard Banner](Home-page.jpg)
 
-A Power BI dashboard analyzing ride-sharing data to uncover insights related to rides, revenue, drivers, customers, and trip patterns.
+## 📖 Project Overview
+This project is a comprehensive data visualization dashboard built using **Microsoft Power BI**. It analyzes Uber's ride-sharing data to uncover key insights into booking trends, revenue generation, vehicle utilization, and customer demographics.
 
-## 📊 Key Insights
+The goal of this dashboard is to help stakeholders make data-driven decisions by visualizing ride patterns, cancellation reasons, and high-demand locations.
 
-* Total rides, completed vs cancelled rides
-* Revenue and fare trends
-* Driver & customer ratings
-* Popular pickup/drop-off locations
-* Payment method analysis
-* Ride distance and duration patterns
+## 🌟 Key Features
 
-## 🛠 Tools Used
+### 1. **Bookings Analysis**
+- **Total Bookings Overview:** Tracks Complete vs. Lost bookings (Cancellations/Incomplete rides).
+- **Trend Analysis:** Visualizes booking volumes over months and quarters.
+- **Vehicle Segmentation:** Breakdowns of bookings by vehicle types (Auto, Bike, Prime Sedan, etc.).
 
-* Power BI
-* DAX
-* Power Query
-* CSV dataset
+### 2. **Revenue Intelligence**
+- **Financial Metrics:** Displays Total Revenue, Booking Value, and Payment Method distribution (UPI, Cash, Credit Card).
+- **Revenue by Vehicle:** Identifies which vehicle types contribute most to the bottom line.
+- **Customer LTV:** Analyzes revenue contribution by individual customer IDs.
 
-## 📁 Files Included
+### 3. **Customer & Rider Insights**
+- **Rider Demographics:** Segments users into First-time, Regular, and Frequent riders.
+- **Cancellation Analysis:** Drills down into reasons for lost bookings (e.g., "Driver asked to change destination," "AC not working").
 
-* Power BI `.pbix` file
-* Dataset file
-* Dashboard screenshots![Uploading Home page.png…]()
-<img width="1297" height="721" alt="Hom<img width="1302" height="722" alt="Booking page" src="https://github.com/user-attachments/assets/f58bd918-91ad-47cc-acfe-068f232823c0" />
-e page" src="https://github.com/user-attachments/assets/90d224f<img width="1298" height="722" alt="vehicle page" src="https://github.com/user-attachments/assets/42d7a7b8-53b1-4b41-a77e-8d635bd83657" />
-d-4647-42d8-8f29-fa11412712a3" /><img width="1297" height="722" alt="Rider page" src="https://github.com/user-attachments/assets/690d7fbd-9c06-4476-8f0f-dc24c8a633c6" />
-<img width="1297" height="722" alt="location page" src="https://github.com/user-attachments/assets/1d3adbda-8892-4e5a-b6f5-277bc8f98d64" />
+### 4. **Operational & Location Metrics**
+- **Heatmaps:** Identifies top pickup and drop-off locations (e.g., Khanda, Ashram, AIIMS).
+- **Time-Slot Analysis:** Pinpoints peak demand hours (e.g., "Evening 6 PM - 9 PM") to optimize driver allocation.
 
+## 📸 Dashboard Visuals
 
+| **Bookings View** | **Revenue View** |
+|:---:|:---:|
+| ![Bookings Page](Booking-page.jpg) | ![Revenue Page](revenue-page.jpg) |
+| *Tracks volume, ride status, and vehicle types* | *Analyzes payment methods and financial performance* |
 
-## 🚀 How to Use
+| **Customer View** | **Vehicle & Riders** |
+|:---:|:---:|
+| ![Rider Page](Rider-page.jpg) | ![Vehicle Page](vehicle-page.jpg) |
+| *Customer segments and cancellation reasons* | *Vehicle performance metrics and utilization* |
 
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore the dashboard
+## 🛠️ Tools & Technologies Used
+- **Power BI Desktop**: For data modeling, DAX calculations, and visualization.
+- **Power Query**: For ETL (Extract, Transform, Load) and data cleaning.
+- **DAX (Data Analysis Expressions)**: Used for creating custom measures like `Booking_Value`, `Cancellation_Rate`, and `Revenue_Growth`.
+- **Figma / Canva**: (Optional) Used for designing the custom background layouts.
 
+## 📂 Dataset
+The dataset includes fields such as:
+- **Booking ID**: Unique identifier for rides.
+- **Status**: Success, Cancelled by Driver, Cancelled by User.
+- **Vehicle Type**: Auto, Prime Sedan, Mini, etc.
+- **Customer ID**: Unique user identifiers.
+- **Revenue/Fare**: Cost of the trip.
+- **Location**: Pickup and Drop-off points.
 
+## 🚀 How to Use This Project
+1. **Clone the Repo**:
